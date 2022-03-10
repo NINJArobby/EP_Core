@@ -1,0 +1,16 @@
+E:\Projects\EpaymentCore\FimiEngine\bin\Debug\net6.0\FimiEngine.deps.json
+E:\Projects\EpaymentCore\FimiEngine\bin\Debug\net6.0\FimiEngine.dll
+E:\Projects\EpaymentCore\FimiEngine\bin\Debug\net6.0\ref\FimiEngine.dll
+E:\Projects\EpaymentCore\FimiEngine\bin\Debug\net6.0\FimiEngine.pdb
+E:\Projects\EpaymentCore\FimiEngine\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Projects\EpaymentCore\FimiEngine\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\Projects\EpaymentCore\FimiEngine\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\FimiEngine.csproj.AssemblyReference.cache
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\FimiEngine.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\FimiEngine.AssemblyInfoInputs.cache
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\FimiEngine.AssemblyInfo.cs
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\FimiEngine.csproj.CoreCompileInputs.cache
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\FimiEngine.csproj.CopyComplete
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\FimiEngine.dll
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\ref\FimiEngine.dll
+E:\Projects\EpaymentCore\FimiEngine\obj\Debug\net6.0\FimiEngine.pdb
