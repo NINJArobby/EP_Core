@@ -1,0 +1,12 @@
+E:\Projects\EpaymentCore\SecurityEngine\bin\Debug\net6.0\SecurityEngine.deps.json
+E:\Projects\EpaymentCore\SecurityEngine\bin\Debug\net6.0\SecurityEngine.dll
+E:\Projects\EpaymentCore\SecurityEngine\bin\Debug\net6.0\ref\SecurityEngine.dll
+E:\Projects\EpaymentCore\SecurityEngine\bin\Debug\net6.0\SecurityEngine.pdb
+E:\Projects\EpaymentCore\SecurityEngine\obj\Debug\net6.0\SecurityEngine.csproj.AssemblyReference.cache
+E:\Projects\EpaymentCore\SecurityEngine\obj\Debug\net6.0\SecurityEngine.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\EpaymentCore\SecurityEngine\obj\Debug\net6.0\SecurityEngine.AssemblyInfoInputs.cache
+E:\Projects\EpaymentCore\SecurityEngine\obj\Debug\net6.0\SecurityEngine.AssemblyInfo.cs
+E:\Projects\EpaymentCore\SecurityEngine\obj\Debug\net6.0\SecurityEngine.csproj.CoreCompileInputs.cache
+E:\Projects\EpaymentCore\SecurityEngine\obj\Debug\net6.0\SecurityEngine.dll
+E:\Projects\EpaymentCore\SecurityEngine\obj\Debug\net6.0\ref\SecurityEngine.dll
+E:\Projects\EpaymentCore\SecurityEngine\obj\Debug\net6.0\SecurityEngine.pdb
