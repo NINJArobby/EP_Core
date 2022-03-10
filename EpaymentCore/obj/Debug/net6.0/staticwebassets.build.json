@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ugi6wXGAR6ca987lGRqwPAWwd52FRGQaONw+cg4PmDA=",
+  "Source": "EpaymentCore",
+  "BasePath": "_content/EpaymentCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
