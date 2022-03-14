@@ -17,7 +17,7 @@ builder.Services.AddSingleton<IFimiConfigManager, FimiConfigManager>(); //add se
 builder.Services.AddDistributedMemoryCache(); //inject/add session management
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromSeconds(60);
+    options.IdleTimeout = TimeSpan.FromSeconds(180);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
     options.Cookie.Name = ".EpCoreSession";
@@ -41,7 +41,6 @@ builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
