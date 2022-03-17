@@ -333,6 +333,14 @@
           }
         }
       },
+      "System.CodeDom/7.0.0-preview.2.22152.2": {
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      },
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -443,6 +451,25 @@
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Management/7.0.0-preview.2.22152.2": {
+        "dependencies": {
+          "System.CodeDom": "7.0.0-preview.2.22152.2"
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -591,6 +618,7 @@
           "SqlKata": "2.3.7",
           "SqlKata.Execution": "2.3.7",
           "System.Data.SqlClient": "4.8.3",
+          "System.Management": "7.0.0-preview.2.22152.2",
           "System.ServiceProcess.ServiceController": "7.0.0-preview.1.22076.8"
         },
         "runtime": {
@@ -859,6 +887,13 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
     },
+    "System.CodeDom/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-siDI0ZuaiDIgJJg5ucVmQyY9sfjUwmqC/acsDIX8/ES8Fl752F3ia2pb4zE39P64PieZhI07O31wahlKlbd4PQ==",
+      "path": "system.codedom/7.0.0-preview.2.22152.2",
+      "hashPath": "system.codedom.7.0.0-preview.2.22152.2.nupkg.sha512"
+    },
     "System.Collections/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -921,6 +956,13 @@
       "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "path": "system.io/4.3.0",
       "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Management/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FvugEwKVScwyJl7ZA/viSpDph2av4gjQxrgBpwVg7sJeCtwAwE6eS/UqzyJvMnFtZORBwrY2xm/Y3Ypg308j1A==",
+      "path": "system.management/7.0.0-preview.2.22152.2",
+      "hashPath": "system.management.7.0.0-preview.2.22152.2.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",

@@ -49,28 +49,28 @@ public class FimiProcessor : ControllerBase
     }
 
     [HttpPost("CheckFimiServiceStatus")]
-    public string CheckFimiServiceStatus(string ServiceName, string MachineName, string OS)
+    public string CheckFimiServiceStatus(ServiceObject serviceObject)
     {
         if (isAuthorised() && currentUser.HasClaim(c => c.Type == "Service"))
-            return Fimi.CheckFimiServiceStatus(ServiceName, MachineName, OS);
+            return Fimi.CheckFimiServiceStatus(serviceObject.ServiceName, serviceObject.MachineName, serviceObject.OS);
         HttpContext.Response.StatusCode = 403;
         return "UnAuthorised";
     }
 
     [HttpPost("StartFimiService")]
-    public string StartFimiService(string ServiceName, string MachineName, string OS)
+    public string StartFimiService(ServiceObject serviceObject)
     {
         if (isAuthorised() && currentUser.HasClaim(c => c.Type == "Service"))
-            return Fimi.StartFimiService(ServiceName, MachineName, OS);
+            return Fimi.StartFimiService(serviceObject.ServiceName, serviceObject.MachineName, serviceObject.OS);
         HttpContext.Response.StatusCode = 403;
         return "UnAuthorised";
     }
 
     [HttpPost("StopFimiService")]
-    public string StopFimiService(string ServiceName, string MachineName, string OS)
+    public string StopFimiService(ServiceObject serviceObject)
     {
         if (isAuthorised() && currentUser.HasClaim(c => c.Type == "Service"))
-            return Fimi.StopFimiService(ServiceName, MachineName, OS);
+            return Fimi.StopFimiService(serviceObject.ServiceName, serviceObject.MachineName, serviceObject.OS);
         HttpContext.Response.StatusCode = 403;
         return "UnAuthorised";
     }
