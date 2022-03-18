@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\EpaymentCore\\EpaymentCore\\EpaymentCore.csproj": {}
+    "/Users/robby/RiderProjects/EP_Core/EpaymentCore/EpaymentCore.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\EpaymentCore\\EpaymentCore\\EpaymentCore.csproj": {
+    "/Users/robby/RiderProjects/EP_Core/EpaymentCore/EpaymentCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\EpaymentCore\\EpaymentCore\\EpaymentCore.csproj",
+        "projectUniqueName": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/EpaymentCore.csproj",
         "projectName": "EpaymentCore",
-        "projectPath": "E:\\Projects\\EpaymentCore\\EpaymentCore\\EpaymentCore.csproj",
-        "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\EpaymentCore\\EpaymentCore\\obj\\",
+        "projectPath": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/EpaymentCore.csproj",
+        "packagesPath": "/Users/robby/.nuget/packages/",
+        "outputPath": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/robby/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj": {
-                "projectPath": "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj"
+              "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj": {
+                "projectPath": "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj"
               },
-              "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj": {
-                "projectPath": "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj"
+              "/Users/robby/RiderProjects/EP_Core/SecurityEngine/SecurityEngine.csproj": {
+                "projectPath": "/Users/robby/RiderProjects/EP_Core/SecurityEngine/SecurityEngine.csproj"
               }
             }
           }
@@ -82,28 +80,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/robby/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj": {
+    "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj",
+        "projectUniqueName": "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj",
         "projectName": "FimiEngine",
-        "projectPath": "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj",
-        "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\EpaymentCore\\FimiEngine\\obj\\",
+        "projectPath": "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj",
+        "packagesPath": "/Users/robby/.nuget/packages/",
+        "outputPath": "/Users/robby/RiderProjects/EP_Core/FimiEngine/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/robby/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -122,6 +118,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[5.0.0-rc2, )"
@@ -137,10 +137,6 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
-            },
-            "System.Management": {
-              "target": "Package",
-              "version": "[7.0.0-preview.2.22152.2, )"
             },
             "System.ServiceProcess.ServiceController": {
               "target": "Package",
@@ -162,28 +158,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/robby/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj": {
+    "/Users/robby/RiderProjects/EP_Core/SecurityEngine/SecurityEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj",
+        "projectUniqueName": "/Users/robby/RiderProjects/EP_Core/SecurityEngine/SecurityEngine.csproj",
         "projectName": "SecurityEngine",
-        "projectPath": "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj",
-        "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\EpaymentCore\\SecurityEngine\\obj\\",
+        "projectPath": "/Users/robby/RiderProjects/EP_Core/SecurityEngine/SecurityEngine.csproj",
+        "packagesPath": "/Users/robby/.nuget/packages/",
+        "outputPath": "/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/robby/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -254,7 +248,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/robby/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

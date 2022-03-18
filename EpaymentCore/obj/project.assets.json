@@ -417,18 +417,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "System.CodeDom/7.0.0-preview.2.22152.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.CodeDom.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.CodeDom.dll": {}
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -564,27 +552,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {}
-        }
-      },
-      "System.Management/7.0.0-preview.2.22152.2": {
-        "type": "package",
-        "dependencies": {
-          "System.CodeDom": "7.0.0-preview.2.22152.2"
-        },
-        "compile": {
-          "lib/net6.0/System.Management.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.Management.dll": {}
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Management.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -845,11 +812,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22054.8",
           "NLog": "5.0.0-rc2",
           "SqlKata": "2.3.7",
           "SqlKata.Execution": "2.3.7",
           "System.Data.SqlClient": "4.8.3",
-          "System.Management": "7.0.0-preview.2.22152.2",
           "System.ServiceProcess.ServiceController": "7.0.0-preview.1.22076.8"
         },
         "compile": {
@@ -1608,33 +1575,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "System.CodeDom/7.0.0-preview.2.22152.2": {
-      "sha512": "siDI0ZuaiDIgJJg5ucVmQyY9sfjUwmqC/acsDIX8/ES8Fl752F3ia2pb4zE39P64PieZhI07O31wahlKlbd4PQ==",
-      "type": "package",
-      "path": "system.codedom/7.0.0-preview.2.22152.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.CodeDom.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
-        "lib/net462/System.CodeDom.dll",
-        "lib/net462/System.CodeDom.xml",
-        "lib/net6.0/System.CodeDom.dll",
-        "lib/net6.0/System.CodeDom.xml",
-        "lib/net7.0/System.CodeDom.dll",
-        "lib/net7.0/System.CodeDom.xml",
-        "lib/netstandard2.0/System.CodeDom.dll",
-        "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.7.0.0-preview.2.22152.2.nupkg.sha512",
-        "system.codedom.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
@@ -2214,34 +2154,6 @@
         "ref/xamarinwatchos10/_._",
         "system.io.4.3.0.nupkg.sha512",
         "system.io.nuspec"
-      ]
-    },
-    "System.Management/7.0.0-preview.2.22152.2": {
-      "sha512": "FvugEwKVScwyJl7ZA/viSpDph2av4gjQxrgBpwVg7sJeCtwAwE6eS/UqzyJvMnFtZORBwrY2xm/Y3Ypg308j1A==",
-      "type": "package",
-      "path": "system.management/7.0.0-preview.2.22152.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Management.targets",
-        "lib/net462/_._",
-        "lib/net6.0/System.Management.dll",
-        "lib/net6.0/System.Management.xml",
-        "lib/net7.0/System.Management.dll",
-        "lib/net7.0/System.Management.xml",
-        "lib/netstandard2.0/System.Management.dll",
-        "lib/netstandard2.0/System.Management.xml",
-        "runtimes/win/lib/net6.0/System.Management.dll",
-        "runtimes/win/lib/net6.0/System.Management.xml",
-        "runtimes/win/lib/net7.0/System.Management.dll",
-        "runtimes/win/lib/net7.0/System.Management.xml",
-        "system.management.7.0.0-preview.2.22152.2.nupkg.sha512",
-        "system.management.nuspec",
-        "useSharedDesignerContext.txt"
       ]
     },
     "System.Reflection/4.3.0": {
@@ -3299,37 +3211,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robby\\.nuget\\packages\\": {}
+    "/Users/robby/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\EpaymentCore\\EpaymentCore\\EpaymentCore.csproj",
+      "projectUniqueName": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/EpaymentCore.csproj",
       "projectName": "EpaymentCore",
-      "projectPath": "E:\\Projects\\EpaymentCore\\EpaymentCore\\EpaymentCore.csproj",
-      "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\EpaymentCore\\EpaymentCore\\obj\\",
+      "projectPath": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/EpaymentCore.csproj",
+      "packagesPath": "/Users/robby/.nuget/packages/",
+      "outputPath": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/robby/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj": {
-              "projectPath": "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj"
+            "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj": {
+              "projectPath": "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj"
             },
-            "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj": {
-              "projectPath": "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj"
+            "/Users/robby/RiderProjects/EP_Core/SecurityEngine/SecurityEngine.csproj": {
+              "projectPath": "/Users/robby/RiderProjects/EP_Core/SecurityEngine/SecurityEngine.csproj"
             }
           }
         }
@@ -3379,7 +3289,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/robby/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
