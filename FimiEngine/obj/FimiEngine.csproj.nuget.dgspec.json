@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj": {}
+    "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj": {}
   },
   "projects": {
-    "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj": {
+    "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj",
+        "projectUniqueName": "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj",
         "projectName": "FimiEngine",
-        "projectPath": "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj",
-        "packagesPath": "/Users/robby/.nuget/packages/",
-        "outputPath": "/Users/robby/RiderProjects/EP_Core/FimiEngine/obj/",
+        "projectPath": "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj",
+        "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\EpaymentCore\\FimiEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/robby/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,9 +40,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration.Abstractions": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[6.0.2-mauipre.1.22054.8, )"
+              "version": "[7.0.0-preview.2.22152.2, )"
             },
             "NLog": {
               "target": "Package",
@@ -57,6 +59,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22152.2, )"
             },
             "System.ServiceProcess.ServiceController": {
               "target": "Package",
@@ -78,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/robby/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

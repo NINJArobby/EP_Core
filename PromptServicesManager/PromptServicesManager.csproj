@@ -7,7 +7,20 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="NLog" Version="5.0.0-rc2"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+        <PackageReference Include="System.Security.Principal.Windows" Version="6.0.0-preview.5.21301.5"/>
+        <PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.0-preview.1.22076.8"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Update="NLog.config">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
 </Project>

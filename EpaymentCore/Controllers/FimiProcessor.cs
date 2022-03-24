@@ -16,9 +16,9 @@ public class FimiProcessor : ControllerBase
     private FimiConfigManager _configuration;
     private ClaimsPrincipal currentUser;
 
-    public FimiProcessor(IConfiguration _configuration)
+    public FimiProcessor(IConfiguration _iconfiguration)
     {
-        this._configuration = new FimiConfigManager(_configuration);
+        this._configuration = new FimiConfigManager(_iconfiguration);
     }
 
     bool isAuthorised()

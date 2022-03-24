@@ -25,22 +25,41 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22054.8": {
+      "Microsoft.Extensions.Configuration/7.0.0-preview.2.22152.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22054.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.2.22152.2",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.2.22152.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22054.8": {
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.2.22152.2": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22054.8"
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.2.22152.2"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0-preview.2.22152.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "7.0.0-preview.2.22152.2"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -49,7 +68,7 @@
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {
@@ -161,6 +180,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/SqlKata.Execution.dll": {}
+        }
+      },
+      "System.CodeDom/7.0.0-preview.2.22152.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -287,6 +318,27 @@
           "ref/netstandard1.5/System.IO.dll": {}
         }
       },
+      "System.Management/7.0.0-preview.2.22152.2": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "7.0.0-preview.2.22152.2"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Reflection/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -372,7 +424,7 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22054.8": {
+      "System.Runtime.CompilerServices.Unsafe/7.0.0-preview.2.22152.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -381,7 +433,7 @@
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -525,46 +577,83 @@
         "logo.png"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22054.8": {
-      "sha512": "pkCZm4uUT46AOct3trvxYkh/L7wKsnFZZXsJXlM36rf6CHboXeENanOBN7chxDUKvA2a8Ejx9ojOE7FPHmoi4A==",
+    "Microsoft.Extensions.Configuration/7.0.0-preview.2.22152.2": {
+      "sha512": "Ns1xgHJRUxquIIFT+B4EQHQOOXhtBwgn/EGlIkktlJNmgqFRyntp/zpfsgQZyZTejLBtGd2hQudlq4H5baDelQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/6.0.2-mauipre.1.22054.8",
+      "path": "microsoft.extensions.configuration/7.0.0-preview.2.22152.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.7.0.0-preview.2.22152.2.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.2.22152.2": {
+      "sha512": "5nbTJtMAguwIjEXHySsxRm5OSK7gBfjxlm8YWaDFzJG4WvVOQy3f0VjXv1lUa8r4hXzmSvarbdTHeQPBN9AI1A==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0-preview.2.22152.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.7.0.0-preview.2.22152.2.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22054.8": {
-      "sha512": "lVtYpBd21BXlclaAX6rMoJIbjojo069vlqhKHxhQs9tVeHnHB7sVj91LchF9xAG0xDbUsFujy8xqOTELYuXm5w==",
+    "Microsoft.Extensions.Primitives/7.0.0-preview.2.22152.2": {
+      "sha512": "QwF3+H/IkrnHeXGjTf2p33SvySxLPp1afERXZim+cOs9rrCFhLTPg3XQqxmQgBfB2yGXtyuMuaxEJanWHNC8JQ==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/6.0.2-mauipre.1.22054.8",
+      "path": "microsoft.extensions.primitives/7.0.0-preview.2.22152.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/Microsoft.Extensions.Primitives.dll",
-        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
         "lib/net6.0/Microsoft.Extensions.Primitives.dll",
         "lib/net6.0/Microsoft.Extensions.Primitives.xml",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/net7.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net7.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.6.0.2-mauipre.1.22054.8.nupkg.sha512",
+        "microsoft.extensions.primitives.7.0.0-preview.2.22152.2.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -757,6 +846,33 @@
         "lib/netstandard2.0/SqlKata.Execution.dll",
         "sqlkata.execution.2.3.7.nupkg.sha512",
         "sqlkata.execution.nuspec"
+      ]
+    },
+    "System.CodeDom/7.0.0-preview.2.22152.2": {
+      "sha512": "siDI0ZuaiDIgJJg5ucVmQyY9sfjUwmqC/acsDIX8/ES8Fl752F3ia2pb4zE39P64PieZhI07O31wahlKlbd4PQ==",
+      "type": "package",
+      "path": "system.codedom/7.0.0-preview.2.22152.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/net6.0/System.CodeDom.xml",
+        "lib/net7.0/System.CodeDom.dll",
+        "lib/net7.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.7.0.0-preview.2.22152.2.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Collections/4.3.0": {
@@ -1321,6 +1437,34 @@
         "system.io.nuspec"
       ]
     },
+    "System.Management/7.0.0-preview.2.22152.2": {
+      "sha512": "FvugEwKVScwyJl7ZA/viSpDph2av4gjQxrgBpwVg7sJeCtwAwE6eS/UqzyJvMnFtZORBwrY2xm/Y3Ypg308j1A==",
+      "type": "package",
+      "path": "system.management/7.0.0-preview.2.22152.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "lib/net462/_._",
+        "lib/net6.0/System.Management.dll",
+        "lib/net6.0/System.Management.xml",
+        "lib/net7.0/System.Management.dll",
+        "lib/net7.0/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net6.0/System.Management.dll",
+        "runtimes/win/lib/net6.0/System.Management.xml",
+        "runtimes/win/lib/net7.0/System.Management.dll",
+        "runtimes/win/lib/net7.0/System.Management.xml",
+        "system.management.7.0.0-preview.2.22152.2.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Reflection/4.3.0": {
       "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
@@ -1762,27 +1906,29 @@
         "system.runtime.nuspec"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22054.8": {
-      "sha512": "/xD4/PF6icn6aQJQy43rg7SIa/VJ7OFlt5eQ7ceVpwW4fMVXWZC3F5jW5NkEee8XEpIq1mjE/KAi8xfSPP+9Ig==",
+    "System.Runtime.CompilerServices.Unsafe/7.0.0-preview.2.22152.2": {
+      "sha512": "6g+opYT/xN4Peft3Tar0kmB4FCFqEe4Rd8lDCK055bdod9kQWyuZTVotjwRA1C5x4zH+x8GhDLzDIee1WH2kmw==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/6.0.2-mauipre.1.22054.8",
+      "path": "system.runtime.compilerservices.unsafe/7.0.0-preview.2.22152.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net462/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net462/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net7.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net7.0/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.6.0.2-mauipre.1.22054.8.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.7.0.0-preview.2.22152.2.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2213,33 +2359,36 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Extensions.Configuration.Abstractions >= 6.0.2-mauipre.1.22054.8",
+      "Microsoft.Extensions.Configuration >= 7.0.0-preview.2.22152.2",
       "NLog >= 5.0.0-rc2",
       "SqlKata >= 2.3.7",
       "SqlKata.Execution >= 2.3.7",
       "System.Data.SqlClient >= 4.8.3",
+      "System.Management >= 7.0.0-preview.2.22152.2",
       "System.ServiceProcess.ServiceController >= 7.0.0-preview.1.22076.8"
     ]
   },
   "packageFolders": {
-    "/Users/robby/.nuget/packages/": {}
+    "C:\\Users\\Robby\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj",
+      "projectUniqueName": "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj",
       "projectName": "FimiEngine",
-      "projectPath": "/Users/robby/RiderProjects/EP_Core/FimiEngine/FimiEngine.csproj",
-      "packagesPath": "/Users/robby/.nuget/packages/",
-      "outputPath": "/Users/robby/RiderProjects/EP_Core/FimiEngine/obj/",
+      "projectPath": "E:\\Projects\\EpaymentCore\\FimiEngine\\FimiEngine.csproj",
+      "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
+      "outputPath": "E:\\Projects\\EpaymentCore\\FimiEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/robby/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2258,9 +2407,9 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": {
+          "Microsoft.Extensions.Configuration": {
             "target": "Package",
-            "version": "[6.0.2-mauipre.1.22054.8, )"
+            "version": "[7.0.0-preview.2.22152.2, )"
           },
           "NLog": {
             "target": "Package",
@@ -2277,6 +2426,10 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.3, )"
+          },
+          "System.Management": {
+            "target": "Package",
+            "version": "[7.0.0-preview.2.22152.2, )"
           },
           "System.ServiceProcess.ServiceController": {
             "target": "Package",
@@ -2298,7 +2451,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/robby/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

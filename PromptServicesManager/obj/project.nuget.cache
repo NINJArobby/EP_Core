@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "gBWiQ8OEkYhx1dKXHYjuBKOKMhCXXQ3G3K+kUQKzVWApQZjCC3JB7YLL3z9TOMjV06vqQMRwul5+LHz+UE+XYQ==",
+  "dgSpecHash": "7L9/iI8AxkqwoQlb0ZfcTSEzkaurYz3/b2xbJgcpX8W5Ah4whnwwJkbpVLoRNmBMNUf7zyAWr+P9IqgVwqaYcg==",
   "success": true,
   "projectFilePath": "E:\\Projects\\EpaymentCore\\PromptServicesManager\\PromptServicesManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robby\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Robby\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
     "C:\\Users\\Robby\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Robby\\.nuget\\packages\\nlog\\5.0.0-rc2\\nlog.5.0.0-rc2.nupkg.sha512",
     "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Robby\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0-preview.1.22076.8\\system.diagnostics.eventlog.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Robby\\.nuget\\packages\\system.security.principal.windows\\6.0.0-preview.5.21301.5\\system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512",
+    "C:\\Users\\Robby\\.nuget\\packages\\system.serviceprocess.servicecontroller\\7.0.0-preview.1.22076.8\\system.serviceprocess.servicecontroller.7.0.0-preview.1.22076.8.nupkg.sha512"
   ],
   "logs": []
 }

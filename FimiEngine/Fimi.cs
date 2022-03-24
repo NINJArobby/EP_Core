@@ -1,5 +1,6 @@
 ﻿using System.Data.SqlClient;
 using System.Diagnostics;
+using System.Management;
 using System.ServiceProcess;
 using Dapper;
 using FimiEngine.HelpingClasses;
@@ -79,6 +80,25 @@ public static class Fimi
                     return proc.Length > 0 ? "Running" : "Stopped";
                     break;
                 case "Windows":
+                    var connection = new ConnectionOptions();
+                    connection.Username = "aspd";
+                    connection.Password = "z3nith_webDMZ_01";
+                    //connection.Authority = "ntlmdomain:ZENITH.ZENITHBANK.COM.GH";
+                    connection.EnablePrivileges = true;
+                    connection.Authentication = AuthenticationLevel.Default;
+                    connection.Impersonation = ImpersonationLevel.Impersonate;
+                    var scope = new ManagementScope($"\\\\172.19.113.10\\root\\CIMV2", connection);
+                    scope.Connect();
+                    var query = new ObjectQuery("SELECT * FROM Win32_Service where DisplayName= 'FimiService'");
+                    using (var searcher = new ManagementObjectSearcher(scope, query))
+                    {
+                        foreach (ManagementObject managementObject in searcher.Get())
+                        {
+                            return managementObject["State"].ToString();
+                        }
+                    }
+
+                    Process[] remoteAll = Process.GetProcessesByName(ServiceName, MachineName);
                     var sc = new ServiceController(ServiceName, MachineName);
                     return sc.Status.ToString();
             }

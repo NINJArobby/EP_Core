@@ -7,6 +7,5 @@ public class UserModel
     public DateTime CreateDate { get; set; }
     public string Password { get; set; }
     public int Uid { get; set; }
-
     public bool Active { get; set; }
 }

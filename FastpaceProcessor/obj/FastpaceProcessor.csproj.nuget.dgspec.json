@@ -1,31 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/Users/robby/RiderProjects/EP_Core/FastpaceProcessor/FastpaceProcessor.csproj": {}
+    "E:\\Projects\\EpaymentCore\\FastpaceProcessor\\FastpaceProcessor.csproj": {}
   },
   "projects": {
-    "/Users/robby/RiderProjects/EP_Core/FastpaceProcessor/FastpaceProcessor.csproj": {
+    "E:\\Projects\\EpaymentCore\\FastpaceProcessor\\FastpaceProcessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/robby/RiderProjects/EP_Core/FastpaceProcessor/FastpaceProcessor.csproj",
+        "projectUniqueName": "E:\\Projects\\EpaymentCore\\FastpaceProcessor\\FastpaceProcessor.csproj",
         "projectName": "FastpaceProcessor",
-        "projectPath": "/Users/robby/RiderProjects/EP_Core/FastpaceProcessor/FastpaceProcessor.csproj",
-        "packagesPath": "/Users/robby/.nuget/packages/",
-        "outputPath": "/Users/robby/RiderProjects/EP_Core/FastpaceProcessor/obj/",
+        "projectPath": "E:\\Projects\\EpaymentCore\\FastpaceProcessor\\FastpaceProcessor.csproj",
+        "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\EpaymentCore\\FastpaceProcessor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/robby/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj": {
+                "projectPath": "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "SqlKata": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -61,7 +71,99 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/robby/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj",
+        "projectName": "SecurityEngine",
+        "projectPath": "E:\\Projects\\EpaymentCore\\SecurityEngine\\SecurityEngine.csproj",
+        "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\EpaymentCore\\SecurityEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "SqlKata": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            },
+            "SqlKata.Execution": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
