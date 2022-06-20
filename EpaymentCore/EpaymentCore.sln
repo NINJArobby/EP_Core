@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastpaceProcessor", "..\Fas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptServicesManager", "..\PromptServicesManager\PromptServicesManager.csproj", "{355B705D-258D-4922-A2E8-3D47CB5E355B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mfs_Engine", "Mfs_Engine\Mfs_Engine.csproj", "{D32E3940-6977-4364-AB3D-BE1E4D7C032B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{355B705D-258D-4922-A2E8-3D47CB5E355B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{355B705D-258D-4922-A2E8-3D47CB5E355B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{355B705D-258D-4922-A2E8-3D47CB5E355B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32E3940-6977-4364-AB3D-BE1E4D7C032B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32E3940-6977-4364-AB3D-BE1E4D7C032B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32E3940-6977-4364-AB3D-BE1E4D7C032B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32E3940-6977-4364-AB3D-BE1E4D7C032B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/Mfs_Engine.csproj": {}
+  },
+  "projects": {
+    "/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/Mfs_Engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/Mfs_Engine.csproj",
+        "projectName": "Mfs_Engine",
+        "projectPath": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/Mfs_Engine.csproj",
+        "packagesPath": "/Users/robby/.nuget/packages/",
+        "outputPath": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/robby/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/robby/.dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
