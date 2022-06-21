@@ -7,16 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="SqlKata" Version="2.3.7"/>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+        <PackageReference Include="SqlKata" Version="2.3.7" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
     <ItemGroup>
-        <Compile Remove="Controllers\WeatherForecastController.cs"/>
+        <Compile Remove="Controllers\WeatherForecastController.cs" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\SecurityEngine\SecurityEngine.csproj"/>
+        <ProjectReference Include="..\EpaymentCore\Mfs_Engine\Mfs_Engine.csproj" />
+        <ProjectReference Include="..\SecurityEngine\SecurityEngine.csproj" />
     </ItemGroup>
 
 </Project>

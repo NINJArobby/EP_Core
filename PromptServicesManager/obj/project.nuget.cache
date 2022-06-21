@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "7L9/iI8AxkqwoQlb0ZfcTSEzkaurYz3/b2xbJgcpX8W5Ah4whnwwJkbpVLoRNmBMNUf7zyAWr+P9IqgVwqaYcg==",
+  "dgSpecHash": "+80jMVcNOltb8VycSRxiSe99IA6Co7S2Fw20/XK6w465ed3xILH/mulO2tLkeGcTdESWLNAYls6NTr0ULhbDuw==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\EpaymentCore\\PromptServicesManager\\PromptServicesManager.csproj",
+  "projectFilePath": "/Users/robby/RiderProjects/EP_Core/PromptServicesManager/PromptServicesManager.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Robby\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\nlog\\5.0.0-rc2\\nlog.5.0.0-rc2.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0-preview.1.22076.8\\system.diagnostics.eventlog.7.0.0-preview.1.22076.8.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\system.security.principal.windows\\6.0.0-preview.5.21301.5\\system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512",
-    "C:\\Users\\Robby\\.nuget\\packages\\system.serviceprocess.servicecontroller\\7.0.0-preview.1.22076.8\\system.serviceprocess.servicecontroller.7.0.0-preview.1.22076.8.nupkg.sha512"
+    "/Users/robby/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/robby/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.2/microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "/Users/robby/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/robby/.nuget/packages/nlog/5.0.0-rc2/nlog.5.0.0-rc2.nupkg.sha512",
+    "/Users/robby/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/robby/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/robby/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/robby/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/robby/.nuget/packages/system.diagnostics.eventlog/7.0.0-preview.1.22076.8/system.diagnostics.eventlog.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "/Users/robby/.nuget/packages/system.security.principal.windows/6.0.0-preview.5.21301.5/system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512",
+    "/Users/robby/.nuget/packages/system.serviceprocess.servicecontroller/7.0.0-preview.1.22076.8/system.serviceprocess.servicecontroller.7.0.0-preview.1.22076.8.nupkg.sha512"
   ],
   "logs": []
 }

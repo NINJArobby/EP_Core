@@ -1,5 +1,6 @@
 using System.Security.Claims;
 using FastpaceProcessor.HelpingClasses;
+using Mfs_Engine;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using LogLevel = NLog.LogLevel;
@@ -8,12 +9,20 @@ namespace FastpaceProcessor.Controllers;
 
 [ApiController]
 [Route("/TransactionsProcessor/")]
-[Authorize]
+//[Authorize]
 public class TransactionsProcessor : ControllerBase
 {
     private static readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
     private ClaimsPrincipal currentUser;
 
+    private readonly IConfiguration _configuration;
+
+    public TransactionsProcessor(IConfiguration configuration)
+    {
+        _configuration = configuration;
+        //start MFS Agent
+        Agent.initAgent(_configuration);
+    }
     bool IsAuthorised()
     {
         currentUser = HttpContext.User;
@@ -306,4 +315,22 @@ public class TransactionsProcessor : ControllerBase
     //     var errors = new List<string> {$"Transaction Processing Error"};
     //     return new JsonResult(new {errors});
     // }
+
+
+    /// <summary>
+    ///Parameters are: companyCode,companyPassword,walletNumber,destinationCountry
+    /// </summary>
+    [HttpPost("mfs/ValidateAccountMobileAccount")]
+    public JsonResult ValidateAccountMobileAccount(MfsRequestObject requestObject)
+    {
+        var res = Agent.AccountRequest( requestObject.destinationCountry,requestObject.walletNumber);
+        return new JsonResult(res);
+    }
+
+    [HttpPost("mfs/GetTransactionStatus")]
+    public JsonResult GetTransactionStatus(string id)
+    {
+        var res = Agent.GetTransactionStatus(id);
+        return new JsonResult(res);
+    }
 }
