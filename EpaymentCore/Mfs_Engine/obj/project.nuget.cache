@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IaIdpQVsLToW8VnmNeYRC19y65l+Nzy1RiRRZobHFoTCSVADTHACNaHdnyXN0V/CPXugmAcLhIV1RElzI1gcTQ==",
+  "dgSpecHash": "ykJQvdXvgutWJFBZE8KqJNn2rK3bsIHbGAGLly7BJzKA5zL7ZraMu0WlitFB6ZFcWFFYJR9Gl2zki4zwyaIM7A==",
   "success": true,
   "projectFilePath": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/Mfs_Engine.csproj",
   "expectedPackageFiles": [
     "/Users/robby/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/robby/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/robby/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/robby/.nuget/packages/restsharp/106.13.0/restsharp.106.13.0.nupkg.sha512",
     "/Users/robby/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
     "/Users/robby/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/robby/.nuget/packages/system.private.servicemodel/4.8.1/system.private.servicemodel.4.8.1.nupkg.sha512",

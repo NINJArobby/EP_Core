@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mb7cEE79MBAFXW0EOBS7i+mtfcCjGdTTyfmyxXMqGpW5HZSko7t47KRqAS2VhyDB2uly3lDwxh8idIUkrP+k8A==",
+  "dgSpecHash": "/TYp/+mVlLHfln8jWczxjRyiSNWt8CTfqh3F0o/h903SF00/neAYB0Z2uf8KTGnBcyTpx6e3SIgYIjbSbjngRA==",
   "success": true,
   "projectFilePath": "/Users/robby/RiderProjects/EP_Core/EpaymentCore/EpaymentCore.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "/Users/robby/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/robby/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/robby/.nuget/packages/nlog/5.0.0-rc2/nlog.5.0.0-rc2.nupkg.sha512",
+    "/Users/robby/.nuget/packages/restsharp/106.13.0/restsharp.106.13.0.nupkg.sha512",
     "/Users/robby/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/Users/robby/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/robby/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

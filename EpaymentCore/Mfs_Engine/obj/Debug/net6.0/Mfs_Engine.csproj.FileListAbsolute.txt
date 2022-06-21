@@ -1,0 +1,15 @@
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/bin/Debug/net6.0/Mfs_Engine.deps.json
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/bin/Debug/net6.0/Mfs_Engine.dll
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/bin/Debug/net6.0/Mfs_Engine.pdb
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/Mfs_Engine.csproj.AssemblyReference.cache
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/Mfs_Engine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/Mfs_Engine.AssemblyInfoInputs.cache
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/Mfs_Engine.AssemblyInfo.cs
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/Mfs_Engine.csproj.CoreCompileInputs.cache
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/Mfs_Engine.dll
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/refint/Mfs_Engine.dll
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/Mfs_Engine.pdb
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/ref/Mfs_Engine.dll
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/robby/RiderProjects/EP_Core/EpaymentCore/Mfs_Engine/obj/Debug/net6.0/Mfs_Engine.csproj.CopyComplete

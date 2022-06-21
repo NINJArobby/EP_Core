@@ -7,17 +7,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.1"/>
-        <PackageReference Include="NLog" Version="5.0.0-rc2"/>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
-        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.1" />
+        <PackageReference Include="NLog" Version="5.0.0-rc2" />
+        <PackageReference Include="RestSharp" Version="106.13.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
     </ItemGroup>
 
     <ItemGroup>
-        <_ContentIncludedByDefault Remove="SecurityEngine\packages.config"/>
-        <_ContentIncludedByDefault Remove="SecurityEngine\obj\project.assets.json"/>
-        <_ContentIncludedByDefault Remove="SecurityEngine\obj\project.packagespec.json"/>
-        <_ContentIncludedByDefault Remove="SecurityEngine\obj\SecurityEngine.csproj.nuget.dgspec.json"/>
+        <_ContentIncludedByDefault Remove="SecurityEngine\packages.config" />
+        <_ContentIncludedByDefault Remove="SecurityEngine\obj\project.assets.json" />
+        <_ContentIncludedByDefault Remove="SecurityEngine\obj\project.packagespec.json" />
+        <_ContentIncludedByDefault Remove="SecurityEngine\obj\SecurityEngine.csproj.nuget.dgspec.json" />
     </ItemGroup>
 
     <ItemGroup>
@@ -27,8 +28,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\FimiEngine\FimiEngine.csproj"/>
-        <ProjectReference Include="..\SecurityEngine\SecurityEngine.csproj"/>
+        <ProjectReference Include="..\FimiEngine\FimiEngine.csproj" />
+        <ProjectReference Include="..\SecurityEngine\SecurityEngine.csproj" />
     </ItemGroup>
 
 </Project>
