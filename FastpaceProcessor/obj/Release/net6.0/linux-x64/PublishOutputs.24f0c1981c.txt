@@ -1,0 +1,6 @@
+/Users/robby/Downloads/FastpaceProcessor/appsettings.Development.json
+/Users/robby/Downloads/FastpaceProcessor/appsettings.json
+/Users/robby/Downloads/FastpaceProcessor/FastpaceProcessor.pdb
+/Users/robby/Downloads/FastpaceProcessor/Mfs_Engine.pdb
+/Users/robby/Downloads/FastpaceProcessor/SecurityEngine.pdb
+/Users/robby/Downloads/FastpaceProcessor/FastpaceProcessor

@@ -1,0 +1,12 @@
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/bin/Release/net6.0/SecurityEngine.deps.json
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/bin/Release/net6.0/SecurityEngine.dll
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/bin/Release/net6.0/SecurityEngine.pdb
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/SecurityEngine.csproj.AssemblyReference.cache
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/SecurityEngine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/SecurityEngine.AssemblyInfoInputs.cache
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/SecurityEngine.AssemblyInfo.cs
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/SecurityEngine.csproj.CoreCompileInputs.cache
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/SecurityEngine.dll
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/refint/SecurityEngine.dll
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/SecurityEngine.pdb
+/Users/robby/RiderProjects/EP_Core/SecurityEngine/obj/Release/net6.0/ref/SecurityEngine.dll
